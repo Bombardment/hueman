@@ -1,9 +1,9 @@
 <?php $sidebar = alx_sidebar_secondary(); ?>
 
 <div class="sidebar s2">
-	
-	<a class="sidebar-toggle" title="<?php _e('Expand Sidebar','hueman'); ?>"><i class="fa icon-sidebar-toggle"></i></a>
-	
+	<div id="s2_toggler">
+		<a class="sidebar-toggle" title="<?php _e('Expand Sidebar','hueman'); ?>"><i class="fa icon-sidebar-toggle"></i></a>
+	</div>
 	<div class="sidebar-content">
 		
 		<div class="sidebar-top group">

@@ -5,9 +5,9 @@
 ?>
 
 	<div class="sidebar s1">
-		
-		<a class="sidebar-toggle" title="<?php _e('Expand Sidebar','hueman'); ?>"><i class="fa icon-sidebar-toggle"></i></a>
-		
+		<div id="s1_toggler">
+			<a class="sidebar-toggle" title="<?php _e('Expand Sidebar','hueman'); ?>"><i class="fa icon-sidebar-toggle"></i></a>
+		</div>
 		<div class="sidebar-content">
 			
 			<div class="sidebar-top group">
